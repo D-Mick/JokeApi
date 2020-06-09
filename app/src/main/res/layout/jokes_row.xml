@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp">
+
+    <TextView
+        android:id="@+id/jokes_body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The quotes is going to be here, then it goes on and on"
+        android:textColor="@android:color/black"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/muli_black" />
+
+    <TextView
+        android:id="@+id/joke_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/jokes_body"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="15dp"
+        android:text="Id: "
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:fontFamily="@font/muli" />
+
+    <TextView
+        android:id="@+id/category_joke"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/jokes_body"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="15dp"
+        android:text="Category: "
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:fontFamily="@font/muli" />
+
+</RelativeLayout>
